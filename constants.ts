@@ -1,6 +1,6 @@
 // NOTE: In a production environment, API keys should be handled via backend proxies or strictly controlled environment variables.
 // For the purpose of this requested demo deployment, the key provided by the user is integrated here.
-export const GEMINI_API_KEY = "AIzaSyDtITvJip9hBAGDEx08C4m2A2wWh-7F8sc";
+export const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyDtITvJip9hBAGDEx08C4m2A2wWh-7F8sc";
 
 export const SYSTEM_INSTRUCTION = `
 *** IDENTIDAD Y OBJETIVO ***
